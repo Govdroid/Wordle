@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wordle Game</title>
+    <style>
+      h1 {
+    text-align: center;
+  }
+  </style>
+  </head>
+  <body style="background-color:#e6e6ff;"></body>
+  <body>
+    <h1 style="color: red;">Wordle</h1>
+    <center>
+    <p>Guess the word:</p>
+    <form>
+      <input type="text" id="wordInput" maxlength="10">
+      <br><br>
+      <button type="button" onclick="checkWord()">Check</button>
+      <button type="button" onclick="resetGame()">Reset</button>
+    </form>
+    <p id="result"></p>
+    <script src="wordle.js"></script>
+    </center>
+  </body>
+</html>
